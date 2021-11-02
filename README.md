@@ -1,5 +1,7 @@
 # TiMiXV2
 
+This aplication is a jukebox called TiMiX
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
 
 ## Development server
