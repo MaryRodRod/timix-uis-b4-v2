@@ -8,9 +8,8 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=flat-square)](https://lernajs.io/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](https://github.com/barbajs/barba/blob/master/LICENSE)
-[![All Contributors](https://img.shields.io/badge/all_contributors-73-orange.svg?style=flat-square)](#contributors)
-[![Slack channel](https://img.shields.io/badge/slack-channel-purple.svg?style=flat-square&logo=slack)](https://barbajs.slack.com)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
+
   <p>
   <img src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/zivaku">
@@ -20,7 +19,7 @@
 
 ## ✨ 🎶 Online Jukebox called TiMiX | Misión TIC 2022 🎶 ✨
 
-Collaborative work of group 8 B4 as a requirement of the 2022 Mission TIC software development cycle Development of a music management software for online jukebox.
+Collaborative work of Group 8 B4 as a requirement of the 2022 Mission TIC software development cycle Development of a music management software for online jukebox.
 
 TiMiX will take your users to their favorite time so that you can enjoy the music you like the most. You will have an application where you can consult, register, update or delete the songs of your generation.
 
@@ -28,15 +27,19 @@ The language to use will be Python.
 It will be developed using agile methodology or SCRUM.
 
 ## ⭐️ PRE-REQUISITES❕
-| Framework | Scrum  | Jira | tracking product developed.
+| Windows 10 Pro / Home (min) | 
 
 ## 💻 BUILT WITH ❕ 
 
-For Work Group communication | Python | Flask | Slack |
+For Work Group communication | Jira | Scrum methodology (Daily Scrum)
   
-As a Mongo Atlas software application and a database administration tool | DBeaver | Github | 
-  
-Visual Studio Code | PyCharm  | integrated development environment used in computer programming, specifically for the Python language
+Framework Python 
+
+As a MongoSB software application and a database administration tool | Robo 3t | 
+
+Node js | Github | 
+
+Visual Studio Code | Angular | Angular Material | integrated development environment used in computer programming, specifically for the Python language
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
 # 🌟 Running unit tests ❕ 
@@ -64,5 +67,74 @@ Run `ng generate component component-name` to generate a new component. You can 
 | Edward Jannover Robledo Piñeros | JSD. Development Team Member | Backend Developer  |
 
 
-
   This README was generated with ❤️ by Group #8
+
+##  🌟 DESCRIPTION OF THE NEED TO BE SOLVE (WORIK IF THE PROBLEM) ❕
+for the users of the musical contents of the multiple platforms It would be convenient to be able to offer these users the opportunity to have different generational filters so that they can access the lists, according to their preferences, not only by musical genre (as is usually found), if not also grouped by generational events and, in this way, locate the themes of the time of your preference and be able to enjoy your particular tastes.
+##  🌟 GENERAL OBJETIVES ❕
+TiMiX will take your users to their favorite time so that you can enjoy the music you like the most. You will have an application where you can consult, register, update or delete the songs of your generation. 
+
+##  🌟 SPECIFIC OBJETIVES ❕
+⭐️TiMiX will take your users to their favorite time so that you can enjoy the music you like the most. 
+⭐️You will have an application where you can consult, register, update or delete the songs of your generation. 
+
+##  🌟 PROJECT MISION ❕
+The evocation of a time has always attracted attention, for this reason our purpose is to satisfy the need to seek to collect those pleasant experiences typical of the time, its fashion, its culture. We wish to fulfill the objective of finding the solution of providing our own tools so that the user can fulfill the desire of their clients to remember a particular time and specialize in their musical preferences. Satisfy the customer's need by delivering a system that allows a list of songs by their categories or musical genres, so that they can be consulted, updated, registered or eliminated. Determine basic functions to meet the objective of identifying some of the most representative fields for the list of songs.
+
+## 👥  BACKLOCK❕
+## ⭐️EFIC:
+ As a manager of multinational records I want a retro music programming site that recalls the famous jukeboxes, so that it allows me to have a list of songs by their categories or musical genres and that can be consulted, updated, registered or deleted.
+
+                          ✨    👥 STORY 1    🎶                            
+|------------------------------------------------------------------------------|
+| As a multinational record company, I want to set up a retro music            |
+| programming site to remind you of the famous jukeboxes | JSE. (Scrum Master) | 
+|------------------------------------------------------------------------------|
+
+                          ✨    👥 STORY 2    🎶                           
+|------------------------------------------------------------------------------|
+| As a multinational record company I want a system that allows to have a      |
+| list of songs so that categories or musical genres can be consulted          | 
+|------------------------------------------------------------------------------|
+
+                          ✨    👥 STORY 3    🎶                            
+|------------------------------------------------------------------------------|
+| As a multinational record company I want a system that allows having a list  | 
+| of songs so that they can be updated                                         | 
+|------------------------------------------------------------------------------|
+
+                          ✨    👥 STORY 4    🎶                             
+|------------------------------------------------------------------------------|
+| As a multinational record company I want a system that allows having a list  |
+| of songs so that they can be registered                                      | 
+|------------------------------------------------------------------------------|
+
+                          ✨    👥 STORY 5    🎶                             
+|------------------------------------------------------------------------------|
+| As a multinational record company I want a system that allows having a list  |
+| of songs so that they can be eliminated                                      | 
+|------------------------------------------------------------------------------|
+
+                          ✨    👥 STORY 6    🎶                            
+|------------------------------------------------------------------------------|
+| As a multinational record company I want a system to create personalized     |
+| song lists per user.                                                         |           
+|------------------------------------------------------------------------------|
+
+                          ✨    👥 STORY 7    🎶                             
+|------------------------------------------------------------------------------|
+| As a multinational disks company I want to have two profiles in the system,  |
+| the administrator and the end user                                           |           
+|------------------------------------------------------------------------------|
+
+                          ✨    👥 STORY 8    🎶                             
+|------------------------------------------------------------------------------|
+| As a user, I want to see: name of the song, artist, year, musical genre,     |
+| generation and duration of the song                                          |           
+|------------------------------------------------------------------------------|
+
+                          ✨    👥 STORY 9   🎶                             
+|------------------------------------------------------------------------------|
+| As a multinational record company I want a system to store the information   |
+| of the users and the songs to be able to manage it.                          |           
+|------------------------------------------------------------------------------|
