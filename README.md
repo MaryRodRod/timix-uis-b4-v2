@@ -111,3 +111,13 @@ As a user, I want to see: name of the song, artist, year, musical genre, generat
 
 ## ✨    👥 STORY 9   🎶                             
 As a multinational record company I want a system to store the information of the users and the songs to be able to manage it.
+
+
+## 💻 CLASS DIAGRAM ❕ 
+⭐️
+  
+## 💻 ANGULAR & ROBO 3T & NODE JS & MONGO DB INSTALATION ❕ 
+⭐️![WhatsApp Image 2021-11-13 at 10 16 17 PM](https://user-images.githubusercontent.com/70981950/142220751-b99c1412-186c-4aad-b07d-e2fbbf44b18f.jpeg)
+⭐️![WhatsApp Image 2021-11-13 at 10 32 48 PM](https://user-images.githubusercontent.com/70981950/142221138-059ea9b0-cdbb-4462-b7e8-8bb63055ea97.jpeg)
+⭐️![WhatsApp Image 2021-11-13 at 10 16 58 PM](https://user-images.githubusercontent.com/70981950/142221128-15517973-cc99-4154-9493-9e43a7e94886.jpeg)
+
