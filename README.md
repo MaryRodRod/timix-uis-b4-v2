@@ -114,10 +114,16 @@ As a multinational record company I want a system to store the information of th
 
 
 ## 💻 CLASS DIAGRAM ❕ 
-⭐️
+⭐️![WhatsApp Image 2021-11-17 at 9 50 05 AM](https://user-images.githubusercontent.com/70981950/142223392-7ccc831c-c70c-48cb-8bb9-719237ee08b1.jpeg)
+
   
 ## 💻 ANGULAR & ROBO 3T & NODE JS & MONGO DB INSTALATION ❕ 
-⭐️![WhatsApp Image 2021-11-13 at 10 16 17 PM](https://user-images.githubusercontent.com/70981950/142220751-b99c1412-186c-4aad-b07d-e2fbbf44b18f.jpeg)
-⭐️![WhatsApp Image 2021-11-13 at 10 32 48 PM](https://user-images.githubusercontent.com/70981950/142221138-059ea9b0-cdbb-4462-b7e8-8bb63055ea97.jpeg)
-⭐️![WhatsApp Image 2021-11-13 at 10 16 58 PM](https://user-images.githubusercontent.com/70981950/142221128-15517973-cc99-4154-9493-9e43a7e94886.jpeg)
+⭐️ ![WhatsApp Image 2021-11-13 at 10 16 17 PM](https://user-images.githubusercontent.com/70981950/142220751-b99c1412-186c-4aad-b07d-e2fbbf44b18f.jpeg)
+  
+⭐️ ![WhatsApp Image 2021-11-13 at 10 32 48 PM](https://user-images.githubusercontent.com/70981950/142221138-059ea9b0-cdbb-4462-b7e8-8bb63055ea97.jpeg)
+  
+⭐️ ![WhatsApp Image 2021-11-13 at 10 16 58 PM](https://user-images.githubusercontent.com/70981950/142221128-15517973-cc99-4154-9493-9e43a7e94886.jpeg)
+  
+⭐️ ![WhatsApp Image 2021-11-17 at 9 55 39 AM](https://user-images.githubusercontent.com/70981950/142224258-8b98b92b-d590-4a45-8701-fbb1dfe33c1c.jpeg)
+
 
