@@ -85,56 +85,29 @@ The evocation of a time has always attracted attention, for this reason our purp
 ## ⭐️EFIC:
  As a manager of multinational records I want a retro music programming site that recalls the famous jukeboxes, so that it allows me to have a list of songs by their categories or musical genres and that can be consulted, updated, registered or deleted.
 
-                          ✨    👥 STORY 1    🎶                            
-|------------------------------------------------------------------------------|
-| As a multinational record company, I want to set up a retro music            |
-| programming site to remind you of the famous jukeboxes | JSE. (Scrum Master) | 
-|------------------------------------------------------------------------------|
+## ✨    👥 STORY 1    🎶                           
+As a multinational record company, I want to set up a retro music programming site to remind you of the famous jukeboxes
 
-                          ✨    👥 STORY 2    🎶                           
-|------------------------------------------------------------------------------|
-| As a multinational record company I want a system that allows to have a      |
-| list of songs so that categories or musical genres can be consulted          | 
-|------------------------------------------------------------------------------|
+## ✨    👥 STORY 2    🎶                           
+As a multinational record company I want a system that allows to have a list of songs so that categories or musical genres can be consulted  
 
-                          ✨    👥 STORY 3    🎶                            
-|------------------------------------------------------------------------------|
-| As a multinational record company I want a system that allows having a list  | 
-| of songs so that they can be updated                                         | 
-|------------------------------------------------------------------------------|
+## ✨    👥 STORY 3    🎶                            
+As a multinational record company I want a system that allows having a list of songs so that they can be updated  
 
-                          ✨    👥 STORY 4    🎶                             
-|------------------------------------------------------------------------------|
-| As a multinational record company I want a system that allows having a list  |
-| of songs so that they can be registered                                      | 
-|------------------------------------------------------------------------------|
+## ✨    👥 STORY 4    🎶                             
+As a multinational record company I want a system that allows having a list of songs so that they can be registered 
 
-                          ✨    👥 STORY 5    🎶                             
-|------------------------------------------------------------------------------|
-| As a multinational record company I want a system that allows having a list  |
-| of songs so that they can be eliminated                                      | 
-|------------------------------------------------------------------------------|
+## ✨    👥 STORY 5    🎶                             
+As a multinational record company I want a system that allows having a list of songs so that they can be eliminated 
+  
+## ✨    👥 STORY 6    🎶                            
+As a multinational record company I want a system to create personalized song lists per user.
 
-                          ✨    👥 STORY 6    🎶                            
-|------------------------------------------------------------------------------|
-| As a multinational record company I want a system to create personalized     |
-| song lists per user.                                                         |           
-|------------------------------------------------------------------------------|
+## ✨    👥 STORY 7    🎶 
+As a multinational disks company I want to have two profiles in the system, the administrator and the end user
 
-                          ✨    👥 STORY 7    🎶                             
-|------------------------------------------------------------------------------|
-| As a multinational disks company I want to have two profiles in the system,  |
-| the administrator and the end user                                           |           
-|------------------------------------------------------------------------------|
+## ✨    👥 STORY 8    🎶                             
+As a user, I want to see: name of the song, artist, year, musical genre, generation and duration of the song
 
-                          ✨    👥 STORY 8    🎶                             
-|------------------------------------------------------------------------------|
-| As a user, I want to see: name of the song, artist, year, musical genre,     |
-| generation and duration of the song                                          |           
-|------------------------------------------------------------------------------|
-
-                          ✨    👥 STORY 9   🎶                             
-|------------------------------------------------------------------------------|
-| As a multinational record company I want a system to store the information   |
-| of the users and the songs to be able to manage it.                          |           
-|------------------------------------------------------------------------------|
+## ✨    👥 STORY 9   🎶                             
+As a multinational record company I want a system to store the information of the users and the songs to be able to manage it.
