@@ -1,0 +1,5 @@
+Chicos a continuación les comparto algunos comentarios con respecto al sprint 2:
+
+1. Frente al diagrama de clases solo debo decir que no es muy claro el objetivo del campo Fecha en la entidad Usuarios. De resto está super bien chicos. Felicitaciones.
+2. Sólo se evidencian los pantallazos de la tripulante Angela Cucalón por lo que esto se verá reflejado en la nota.
+
