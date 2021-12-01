@@ -1,0 +1,10 @@
+
+body{
+  background-image: url(https://img.freepik.com/foto-gratis/jukebox-radio-antiguo-vintage-render-3d_44074-4769.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
