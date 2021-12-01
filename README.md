@@ -1,3 +1,86 @@
+<div align="center">
+
+  <h1>🎵# TiMiX V2 ❕🎵</h1>
+  
+ ![Stability](https://img.shields.io/badge/stability-stable-brightgreen.svg?style=flat-square)
+[![CircleCI](https://img.shields.io/circleci/project/github/barbajs/barba/master.svg?style=flat-square)](https://circleci.com/gh/barbajs/barba/tree/master)
+[![Coverage Status](https://img.shields.io/coveralls/github/barbajs/barba/master.svg?style=flat-square)](https://coveralls.io/github/barbajs/barba?branch=master)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=flat-square)](https://lernajs.io/)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
+
+  <p>
+  <img src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
+  <a href="https://twitter.com/zivaku">
+    <img alt="Twitter: zivaku" src="https://img.shields.io/twitter/follow/zivaku.svg?style=social" target="_blank" />
+  </a>
+</p>
+
+## ✨ 🎶 Online Jukebox called TiMiX | Misión TIC 2022 🎶 ✨
+
+Collaborative work of Group 8 B4 as a requirement of the 2022 Mission TIC software development cycle Development of a music management software for online jukebox.
+
+TiMiX will take your users to their favorite time so that you can enjoy the music you like the most. You will have an application where you can consult, register, update or delete the songs of your generation.
+
+The language to use will be Python. 
+It will be developed using agile methodology or SCRUM.
+
+## ⭐️ PRE-REQUISITES❕
+| Windows 10 Pro / Home (min) | 
+
+## 💻 BUILT WITH ❕ 
+
+For Work Group communication | Jira | Scrum methodology (Daily Scrum)
+  
+Framework Python 
+
+As a MongoSB software application and a database administration tool | Robo 3t | 
+
+Node js | Github | 
+
+Visual Studio Code | Angular | Angular Material | integrated development environment used in computer programming, specifically for the Python language
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
+# 🌟 Running unit tests ❕ 
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🌟 Running end-to-end tests ❕ 
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🌟 Further help ❕ 
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+##  📀 Development server ‼️
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## 👥  AUTHORS❕
+|  Crew Member                    | Scrum Team Role              | Responsibilities  |
+|-------------------------------  |------------------------------|--------------------|
+| Marisol Rodríguez Rodríguez     | JSE. (Scrum Master)          | Group Leader       |
+| Sandra Vega Contreras           | JSD. Development Team Member | Frontend Developer |
+| Angela Cucalon Micolta          | JSD. Development Team Member | Frontend Developer |
+| Dairon Murcia Sierra            | JSD. Development Team Member | Backend Developer  |
+| Edward Jannover Robledo Piñeros | JSD. Development Team Member | Backend Developer  |
+
+
+  This README was generated with ❤️ by Group #8
+
+##  🌟 DESCRIPTION OF THE NEED TO BE SOLVE (WORIK IF THE PROBLEM) ❕
+for the users of the musical contents of the multiple platforms It would be convenient to be able to offer these users the opportunity to have different generational filters so that they can access the lists, according to their preferences, not only by musical genre (as is usually found), if not also grouped by generational events and, in this way, locate the themes of the time of your preference and be able to enjoy your particular tastes.
+##  🌟 GENERAL OBJETIVES ❕
+TiMiX will take your users to their favorite time so that you can enjoy the music you like the most. You will have an application where you can consult, register, update or delete the songs of your generation. 
+
+##  🌟 SPECIFIC OBJETIVES ❕
+⭐️TiMiX will take your users to their favorite time so that you can enjoy the music you like the most. 
+⭐️You will have an application where you can consult, register, update or delete the songs of your generation. 
+
+##  🌟 PROJECT MISION ❕
+The evocation of a time has always attracted attention, for this reason our purpose is to satisfy the need to seek to collect those pleasant experiences typical of the time, its fashion, its culture. We wish to fulfill the objective of finding the solution of providing our own tools so that the user can fulfill the desire of their clients to remember a particular time and specialize in their musical preferences. Satisfy the customer's need by delivering a system that allows a list of songs by their categories or musical genres, so that they can be consulted, updated, registered or eliminated. Determine basic functions to meet the objective of identifying some of the most representative fields for the list of songs.
+
 ## 👥  BACKLOCK❕
 ## ⭐️EFIC:
  As a manager of multinational records I want a retro music programming site that recalls the famous jukeboxes, so that it allows me to have a list of songs by their categories or musical genres and that can be consulted, updated, registered or deleted.
