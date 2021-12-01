@@ -1,0 +1,7 @@
+Chicos a continuación les comparto algunos comentarios con respecto al sprint 1:
+
+1. Felicitaciones por tomarsen el tiempo de colocar el readme en ingles chicos! Es una gran iniciativa y se ve súper de forma visual.
+
+2. Por otro lado, al leer la descripción del proyecto encuentro en varias partes que se habla de "Python", esto lo van a trabajar de esta forma o van a adoptar las tecnologías que estamos utilizando en clase? En caso de utilizar, node, porfa ajusten esto en el readme.
+
+3. No encuentro el product backlog, porfa me confirman en que lugar está? Idealmente pueden colocar algunas historias de usuario como tabla en el mismo readme.
