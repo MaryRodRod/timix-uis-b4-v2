@@ -1,6 +1,7 @@
 export const environment = {
   production: true
 };
+<<<<<<< HEAD
 
 export const firebase = {
   apiKey: "<API_KEY>",
@@ -12,3 +13,5 @@ export const firebase = {
 
 // set this to true to use static data from "data" folder
 export const staticData = true;
+=======
+>>>>>>> dev
