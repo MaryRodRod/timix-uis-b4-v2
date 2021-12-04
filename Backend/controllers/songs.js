@@ -1,29 +1,37 @@
 const Song = require("../models/song");
-const songs = [
-    {
-    cancion: "la Fama",
-    artista: "Hector lavoe",
-    genero: "Salsa",
-    },
-];
 
-exports.getsongs = (req, res) => {
+exports.getSongs = (req, res) => {
     Song.find().then((listSongs) => {
     res.status(200).json(listSongs);
     });
 };
 
-exports.postsongs = (req, res) => {
+exports.getSong = (req, res) => {
+    const id = req.params.id;
+
+    Song.findById(id).then((result) => {
+    console.log(result);
+    res.status(200).json(result);
+    });
+};
+
+
+exports.postSong = (req, res) => {
     console.log(req.body);
   // songs.push(req.body);
     const songAdd = new Song({
-    name_song: req.body.name_song,
-    artist: req.body.artist,
-    genre: req.body.genre,
+        name_song: req.body.name_song,
+        año: req.body.año,
+        artist: req.body.artist,
+        album: req.body.album,
+        category: req.body.category,
+        generation: req.body.generation
     });
+
 
     songAdd.save().then((songadd) => {
     console.log(songadd);
+
     res.status(201).json({ message: "Cancion creada" });
     });
 };
@@ -38,3 +46,30 @@ exports.delSong = (req, res) => {
         }          
     });
 };
+
+exports.updateSong = (req, res) => {
+    const id = req.params.id;
+
+    
+
+    const song = new Song({
+        _id: id,
+        name_song: req.body.name_song,
+        año: req.body.año,
+        artist: req.body.artist,
+        album: req.body.album,
+        category: req.body.category,
+        generation: req.body.generation
+    });
+
+    Song.updateOne({ _id: id}, song).then(
+    (result) => {
+        if (result.modifiedCount > 0) {
+        res.status(200).json({ message: "Actualización exitosa" });
+        } else {
+        res.status(200).json({ message: "Autenticación fallida" });
+        }
+    }
+    );
+};
+
