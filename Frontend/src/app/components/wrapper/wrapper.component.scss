@@ -1,0 +1,30 @@
+mat-sidenav-container {
+  height: 100%;
+
+  mat-sidenav {
+
+    mat-nav-list {
+
+      .chevron-button {
+        transition: 300ms ease-in-out;
+        transform: rotate(0deg);
+        right: 0;
+        float: right;
+        position: absolute;
+      }
+
+      .chevron-button.rotated {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+.content{
+  border-top: 2px dotted blue;
+  border-bottom: 2px dotted blue;
+  background-image: url("../../../assets/images/stereo-audio.jpg");
+
+  background: url('../../../assets/images/hero-bg.png');
+  font-style: zapfino;
+}
+

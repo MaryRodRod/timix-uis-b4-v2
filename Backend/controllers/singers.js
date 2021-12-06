@@ -21,11 +21,7 @@ exports.postSinger = (req, res) => {
   // singers.push(req.body);
     const singerAdd = new Singer({
         name_singer: req.body.name_singer,
-        año: req.body.año,
-        artist: req.body.artist,
-        album: req.body.album,
-        category: req.body.category,
-        generation: req.body.generation
+        nationality: req.body.nationality
     });
 
 
@@ -55,11 +51,7 @@ exports.updateSinger = (req, res) => {
     const singer = new Singer({
         _id: id,
         name_singer: req.body.name_singer,
-        año: req.body.año,
-        artist: req.body.artist,
-        album: req.body.album,
-        category: req.body.category,
-        generation: req.body.generation
+        nationality: req.body.nationality
     });
 
     Singer.updateOne({ _id: id}, singer).then(

@@ -20,11 +20,7 @@ exports.postPlaylist = (req, res) => {
   // playlists.push(req.body);
     const playlistAdd = new Playlist({
         name_playlist: req.body.name_playlist,
-        año: req.body.año,
-        artist: req.body.artist,
-        album: req.body.album,
-        category: req.body.category,
-        generation: req.body.generation
+        user: req.body.user
     });
 
 
@@ -48,22 +44,11 @@ exports.delPlaylist = (req, res) => {
 
 exports.updatePlaylist = (req, res) => {
     const id = req.params.id;
-    // let image = "";
-    // if (req.file) {
-    // const url = req.protocol + "://" + req.get("host") + "/files/";
-    // image = url + req.file.filename;
-    // } else {
-    // image = req.body.imageUrl;
-    // }
 
     const playlist = new Playlist({
         _id: id,
         name_playlist: req.body.name_playlist,
-        año: req.body.año,
-        artist: req.body.artist,
-        album: req.body.album,
-        category: req.body.category,
-        generation: req.body.generation
+        user: req.body.user
     });
 
     Playlist.updateOne({ _id: id}, playlist).then(

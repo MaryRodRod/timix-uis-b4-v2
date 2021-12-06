@@ -24,12 +24,12 @@ app.use(cors());
 
 app.use('/api/songs', Songsroutes);
 app.use('/api/singers', Singersroutes);
-app.use('/api/playlist', Playlistsroutes);
+app.use('/api/playlists', Playlistsroutes);
 app.use('/api/categories', Categoriesroutes);
 app.use('/api/generations', Generationsroutes);
 app.use('/api/userlist', Userlistsroutes);
 app.use('/api/users', Usersroutes);
-app.use('/api/roles', Rolsroutes);
+app.use('/api/rols', Rolsroutes);
 app.use('/api/albums', Albumsroutes);
 
 module.exports = app;

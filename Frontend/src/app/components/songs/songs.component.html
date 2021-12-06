@@ -1,0 +1,89 @@
+<main >
+  <div class="container" >
+    <div class="tablacancion">
+        <div class="row justify-content-between">
+            <div class="col-md-11 formulario">
+                <form class='row g-3' action="/ICancion" method="POST">
+                    <div class="text-center pt-3">
+                        <h1 class="text-primary fs-2">Ingreso de canciones</h1>
+                    </div>
+                    <div class="row g-3 d-flex justify-content-start">
+                        <div class="col-md-3 ">
+                            <input list="artistas" class="form-control text-light" name='artistas'
+                                placeholder="Ingrese Artista" />
+                            <datalist id="artistas">
+
+                            </datalist>
+                        </div>
+                        <div class="col-md-3">
+                            <input list="albumes" class="form-control text-light" name="albumes"
+                                placeholder="Ingrese Album" />
+                            <datalist id="albumes">
+
+                            </datalist>
+                        </div>
+                        <div class="col-md-3 ">
+                            <input list="categorias" class="form-control text-light" name='categorias'
+                                placeholder="Ingrese Genero" />
+                            <datalist id="categorias">
+
+                            </datalist>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" class="form-control text-light" name='cancion' placeholder="Ingrese Cancion">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="number" min="1900" max="2021" class="form-control text-light" name='año' placeholder="Ingrese Año">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="time" min="1:00" max="20:00" class="form-control text-light" name='duracion' value="00:00" placeholder="hrs:mins">
+                        </div>
+                        <div class="col-md-3">
+                            <button type="submit" class="btn btn-outline-primary ingresar">GRABAR</button>
+                        </div>
+                    </div>
+                    <table id="data" class="mdl-data-table hover" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th class='text-info'>Cancion</th>
+                                <th class='text-info'>Año</th>
+                                <th class='text-info'>Duracion</th>
+                                <th class='text-info'>Album</th>
+                                <th class='text-info'>Artista</th>
+                                <th class='text-info'>Genero</th>
+                                <th class='text-info'>Generaciones</th>
+                            </tr>
+                        </thead>
+
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-Li9vy3DqF8tnTXuiaAJuML3ky+er10rcgNR/VqsVpcw+ThHmYcwiB1pbOxEbzJr7"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap5.js"></script>
+<script>
+    $(document).ready(function () {
+        var table = $('#data').DataTable({
+            ajax: '/api/data',
+            responsive: true,
+            serverSide: false,
+            columns: [
+                { data: 'Nombre'},
+                { data: 'Año'},
+                { data: 'Duracion'},
+                { data: 'Album'},
+                { data: 'Artista' },
+                { data: 'Genero'},
+                { data: 'Generacion' }
+            ]
+        });
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</main>
+

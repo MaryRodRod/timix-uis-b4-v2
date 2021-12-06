@@ -3,19 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AddMusicaComponent } from './add-musica/add-musica.component';
-import { FlashMessagesModule } from 'angular2-flash-messages';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddMusicaComponent
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FlashMessagesModule.forRoot()
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -20,12 +20,7 @@ exports.postRol = (req, res) => {
     console.log(req.body);
   // rols.push(req.body);
     const rolAdd = new Rol({
-        name_rol: req.body.name_rol,
-        año: req.body.año,
-        artist: req.body.artist,
-        album: req.body.album,
-        category: req.body.category,
-        generation: req.body.generation
+        name_rol: req.body.name_rol
     });
 
 
@@ -53,12 +48,7 @@ exports.updateRol = (req, res) => {
 
     const rol = new Rol({
         _id: id,
-        name_rol: req.body.name_rol,
-        año: req.body.año,
-        artist: req.body.artist,
-        album: req.body.album,
-        category: req.body.category,
-        generation: req.body.generation
+        name_rol: req.body.name_rol
     });
 
     Rol.updateOne({ _id: id}, rol).then(
