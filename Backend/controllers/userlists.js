@@ -20,12 +20,9 @@ exports.postUserlist = (req, res) => {
     console.log(req.body);
   // ulists.push(req.body);
     const ulistAdd = new Userlist({
-        name_ulist: req.body.name_ulist,
-        año: req.body.año,
-        artist: req.body.artist,
-        album: req.body.album,
-        category: req.body.category,
-        generation: req.body.generation
+        playlist: req.body.name_ulist,
+        song: req.body.song
+
     });
 
 
